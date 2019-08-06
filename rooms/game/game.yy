@@ -1,6 +1,6 @@
 
 {
-    "name": "medium",
+    "name": "game",
     "id": "41c4065d-a4a0-4c00-b0be-a49ac2e952f9",
     "creationCodeFile": "",
     "inheritCode": false,
