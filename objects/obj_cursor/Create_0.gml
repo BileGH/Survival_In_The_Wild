@@ -1,0 +1,1 @@
+global.wait=0
