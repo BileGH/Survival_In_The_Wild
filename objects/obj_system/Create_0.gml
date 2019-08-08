@@ -4,4 +4,4 @@ global.hunger=50
 global.thirst=50
 global.sanity=50
 x=room_width/2
-global.event=1
+global.event=0

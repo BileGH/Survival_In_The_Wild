@@ -45,3 +45,60 @@ if global.event=5
 	if dir=1 draw_text(x,y+10,"Yum Yum")
 	if dir=2 draw_text(x,y+10,"Is that mold? Ew")
 }
+
+if global.event=6
+{
+	if dir=0 draw_text(x,y+10,"You have the posibility to craft something")
+	if dir=1 draw_text(x,y+10,"I will craft a spear")
+	if dir=2 draw_text(x,y+10,"I will craft a bandage")
+}
+
+if global.event=7
+{
+	if dir=0 draw_text(x,y+10,"You hear voices, will you follow them?")
+	if dir=1 draw_text(x,y+10,"I will run the opposite way")
+	if dir=2 draw_text(x,y+10,"Yeeeaaa")
+}
+
+if global.event=8
+{
+	if dir=0 draw_text(x,y+10,"You come across a slightly salty lake")
+	if dir=1 draw_text(x,y+10,"Better than no water")
+	if dir=2 draw_text(x,y+10,"I won't drink that")
+}
+
+if global.event=9
+{
+	if dir=0 draw_text(x,y+10,"I snake bit you")
+	if dir=1 draw_text(x,y+10,"It hurts, oh god it hurts")
+	if dir=2 draw_text(x,y+10,"I will try to suck it out")
+}
+
+if global.event=10
+{
+	if dir=0 draw_text(x,y+10,"You found some grapes")
+	if dir=1 draw_text(x,y+10,"I will eat them")
+	if dir=2 draw_text(x,y+10,"I will make wine")
+}
+
+if global.event=11
+{
+	if dir=0 draw_text(x,y+10,"You found a med kit")
+	if dir=1 draw_text(x,y+10,"I will use it now")
+	if dir=2 draw_text(x,y+10,"I will save it for later")
+}
+
+if global.event=12
+{
+	if dir=0 draw_text(x,y+10,"You find a coconut tree")
+	if dir=1 draw_text(x,y+10,"Let me climb that tree")
+	if dir=2 draw_text(x,y+10,"The fallen coconuts are enough")
+}
+
+//Template
+if global.event=0
+{
+	if dir=0 draw_text(x,y+10,"")
+	if dir=1 draw_text(x,y+10,"")
+	if dir=2 draw_text(x,y+10,"")
+}

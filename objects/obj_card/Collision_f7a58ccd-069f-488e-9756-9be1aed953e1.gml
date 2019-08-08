@@ -7,6 +7,6 @@ if mouse_check_button_pressed(mb_left) && grabbed=0
 
 if mouse_check_button_released(mb_left) && grabbed=1
 {
-	wait=10
+	wait=5
 	grabbed=0
 }
