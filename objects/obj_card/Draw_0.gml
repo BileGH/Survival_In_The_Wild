@@ -1,5 +1,7 @@
 draw_self()
 
+draw_set_color(c_white)
+
 if global.event=1
 {
 	if dir=0 draw_text(x-235,y+10,"Welcome to Survival In The Wild")
@@ -30,9 +32,16 @@ if global.event=4
 	if dir=0
 	{
 		draw_text(x,y+10,"Well you have to sustain 4 needs:")
-		draw_text(x,y+40,"Health, Sanity, Thirst and Hunger")
+		draw_text(x,y+40,"Health, Hunger, Thirst and Sanity")
 		draw_text(x,y+70,"Good Luck!")
 	}
 	if dir=1 draw_text(x,y+10,"Ah, thanks")
 	if dir=2 draw_text(x,y+10,"I don't need luck")
+}
+
+if global.event=5
+{
+	if dir=0 draw_text(x,y+10,"You found berries")
+	if dir=1 draw_text(x,y+10,"Yum Yum")
+	if dir=2 draw_text(x,y+10,"Is that mold? Ew")
 }
