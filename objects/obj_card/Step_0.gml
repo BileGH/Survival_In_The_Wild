@@ -14,6 +14,8 @@ wait=wait-1
 
 //EVENTS
 
-if room!=tutorial global.event = random_range(1,1)
+if room!=tutorial global.event = random_range(4,4)
+
+if room-tutorial && global.event=0 global.event=1
 
 dir=0
