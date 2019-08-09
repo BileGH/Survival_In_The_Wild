@@ -1,3 +1,4 @@
+randomize()
 draw_set_font(fnt_default)
 global.hp=50
 global.hunger=50
